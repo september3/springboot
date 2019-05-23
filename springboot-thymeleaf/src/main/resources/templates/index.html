@@ -48,5 +48,13 @@
         </form>
     </div>
 
+    <input type="button" onclick="openPDF()" value="点我"/>
+    <script>
+        function openPDF(){
+            var url="/test.pdf";
+            window.open("/pdfjs/web/viewer.html?file="+url);
+        }
+    </script>
+
 </body>
 </html>
