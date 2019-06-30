@@ -19,7 +19,7 @@
     </properties>
 
     <dependencies>
-         <!--swagger-->
+         <!--configuration-->
         <dependency>
             <groupId>com.battcn</groupId>
             <artifactId>swagger-spring-boot-starter</artifactId>

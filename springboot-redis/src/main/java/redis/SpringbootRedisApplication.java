@@ -1,13 +1,13 @@
-package mybatis;
+package redis;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringbootMybatisApplication {
+public class SpringbootRedisApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringbootMybatisApplication.class, args);
+        SpringApplication.run(SpringbootRedisApplication.class, args);
     }
 
 }

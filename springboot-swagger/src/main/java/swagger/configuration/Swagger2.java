@@ -1,4 +1,4 @@
-package swagger.swagger;
+package swagger.configuration;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -29,7 +29,7 @@ public class Swagger2 {
         return new Docket(DocumentationType.SWAGGER_2)
                 .apiInfo(apiInfo())
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("swagger.controller"))
+                .apis(RequestHandlerSelectors.basePackage("configuration.controller"))
                 .paths(PathSelectors.any())
                 .build();
     }
